@@ -28,7 +28,7 @@ SELECT
     customer,
     sku,
     size,
-    COUNT(*)                AS duplicate_count
+    COUNT(*)AS duplicate_count
 FROM international_sales
 GROUP BY date, customer, sku, size
 HAVING COUNT(*) > 1
@@ -40,7 +40,7 @@ SELECT
     sku_code,
     color,
     size,
-    COUNT(*)                AS duplicate_count
+    COUNT(*) AS duplicate_count
 FROM sale_report
 GROUP BY sku_code, color, size
 HAVING COUNT(*) > 1
@@ -83,7 +83,7 @@ ORDER BY duplicate_count DESC;
 SELECT
     'amazon_sale_report'  AS table_name,
     'order_id'      AS column_name,
-    COUNT(*)        FILTER (WHERE order_id     IS NULL) AS null_count,
+    COUNT(*)        FILTER (WHERE order_id IS NULL) AS null_count,
     COUNT(*)        AS total_rows
 FROM amazon_sale_report
 UNION ALL
@@ -310,8 +310,7 @@ ORDER BY days_since_last_load DESC;
 
 -- NOTE: sale_report, may_2022_pricing, pl_march_2021, expense_items, and
 -- cloud_warehouse are dimension/reference tables with no date column.
--- Freshness for those is determined by pipeline run metadata (e.g., an
--- etl_load_timestamp column you should add to every table during ingestion
+-- Freshness for those is determined by pipeline run metadata
 
 -- CHECK 5: SUMMARY CTE — ALL CHECKS IN ONE QUERY
 
