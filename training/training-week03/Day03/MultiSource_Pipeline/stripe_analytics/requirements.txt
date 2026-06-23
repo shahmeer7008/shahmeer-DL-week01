@@ -1,0 +1,5 @@
+dlt[snowflake]
+pandas
+python-dotenv
+dlt[restclient]
+stripe
