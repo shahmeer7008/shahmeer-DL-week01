@@ -1,0 +1,79 @@
+==================== 2026-06-29T08:56:25.914522Z | 019f1298-1a37-73c1-abd7-dd895bbea572 ====================
+08:56:25.914768 [info ]: Installing dbt project and profile setup
+08:56:25.997313 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+08:56:25.998049 [info ]: Success Project created successfully!
+08:56:25.998452 [info ]: Info Project name: jaffle_shop
+08:56:25.999183 [info ]: Info Project directory: jaffle_shop
+08:56:25.999669 [info ]: Info Setting up your profile...
+08:56:26.000219 [info ]: Info Creating new profile...
+08:56:28.862513 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+09:00:12.936285 [info ]: Success Profile written to C:\Users\user\.dbt\profiles.yml
+09:00:12.936758 [info ]: Validating profile inputs, adapters, and connection
+
+09:00:12.937251 [info ]: dbt-fusion 2.0.0-preview.193
+09:00:12.938665 [info ]: Started loading project
+09:00:12.943096 [info ]: Loading ~/.dbt/profiles.yml
+09:00:12.962049 [info ]: Finished loading project [  0.02s]
+09:00:12.962595 [info ]: Started debugging
+09:00:12.962949 [info ]: Debugging profile: dev
+09:00:12.963475 [info ]: Debugging dbt version: 2.0.0-preview.193
+09:00:12.963949 [info ]: Debugging platform: windows x86_64 (windows)
+09:00:12.964430 [info ]: Debugging adapter type: snowflake (remote)
+09:00:13.025295 [info ]: Debugging dependencies:
+  git: OK
+09:00:13.025793 [info ]: Debugging connection:
+  "account": "ch79706.me-central2.gcp",
+  "user": "SHAHMEER7008",
+  "database": "Github_db",
+  "warehouse": "Github_wh",
+  "schema": "GITHUB_DATA_INCREMENTAL"
+09:00:22.473766 [info ]: Finished debugging [  9.51s]
+09:00:22.474053 [error]: [AuthenticationFailed (dbt1011)]: dbt was unable to connect to the specified database.
+The following error was returned:
+
+[Snowflake] 390100 (08004): Incorrect username or password was specified.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles
+09:00:23.880272 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error for target 'dev' [3m 58s]
+==================== 2026-06-29T09:04:24.146911Z | 019f129f-6650-7490-a170-eb7a78b1c934 ====================
+09:04:24.147143 [info ]: Installing dbt project and profile setup
+09:04:24.151078 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_1' instead
+09:04:24.189640 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+09:04:24.191423 [info ]: Success Project created successfully!
+09:04:24.191681 [info ]: Info Project name: jaffle_shop_1
+09:04:24.191994 [info ]: Info Project directory: jaffle_shop_1
+09:04:24.192256 [info ]: Info Setting up your profile...
+09:04:24.193135 [info ]: Loading ~/.dbt/profiles.yml
+09:04:24.194228 [info ]: Info Creating new profile...
+09:04:25.582163 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+09:06:48.228123 [info ]: Success Profile written to C:\Users\user\.dbt\profiles.yml
+09:06:48.228707 [info ]: Validating profile inputs, adapters, and connection
+
+09:06:48.229059 [info ]: dbt-fusion 2.0.0-preview.193
+09:06:48.230040 [info ]: Started loading project
+09:06:48.233011 [info ]: Loading ~/.dbt/profiles.yml
+09:06:48.247728 [info ]: Finished loading project [  0.02s]
+09:06:48.248073 [info ]: Started debugging
+09:06:48.248256 [info ]: Debugging profile: dev
+09:06:48.248489 [info ]: Debugging dbt version: 2.0.0-preview.193
+09:06:48.248715 [info ]: Debugging platform: windows x86_64 (windows)
+09:06:48.248995 [info ]: Debugging adapter type: snowflake (remote)
+09:06:48.306545 [info ]: Debugging dependencies:
+  git: OK
+09:06:48.307079 [info ]: Debugging connection:
+  "account": "ch79706.me-central2.gcp",
+  "user": "SHAHMEER7008",
+  "database": "GITHUB_DB",
+  "warehouse": "GITHUB_WH",
+  "schema": "GITHUB_DATA_INCREMENTAL"
+09:06:50.900995 [debug]: Query executed on node unknown:
+select 1 as id
+09:06:50.901152 [info ]: Debugging connection test: OK
+09:06:50.901678 [info ]: Debugged All checks passed!
+09:06:50.902285 [info ]: Finished debugging [  2.65s]
+09:06:52.297977 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [2m 28s]

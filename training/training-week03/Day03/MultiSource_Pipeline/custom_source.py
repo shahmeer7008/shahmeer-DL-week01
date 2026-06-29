@@ -5,7 +5,7 @@ import json
 
 
 @dlt.resource(
-    name="public_dataset",
+    name="CallingAgents",
     primary_key="id",
     write_disposition="merge",
 )

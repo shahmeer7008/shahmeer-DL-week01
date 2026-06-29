@@ -1,0 +1,8 @@
+dagster
+dagster-webserver
+dagster-docker
+
+dlt[snowflake]
+
+python-dotenv
+requests

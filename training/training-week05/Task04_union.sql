@@ -1,0 +1,18 @@
+explain analyze 
+SELECT p.payment_type,count(p.order_id)
+from olist_order_payments_dataset p
+join olist_orders_dataset o
+on o.order_id=p.order_id
+where payment_type='credit_card'
+and extract(year from (o.order_purchase_timestamp)) = '2018'
+group by(p.payment_type)
+
+union
+
+SELECT p.payment_type,count(p.order_id)
+from olist_order_payments_dataset p
+join olist_orders_dataset o
+on o.order_id=p.order_id
+where payment_type='boleto'
+and extract (year from (o.order_purchase_timestamp)) = '2018'
+group by(p.payment_type)
