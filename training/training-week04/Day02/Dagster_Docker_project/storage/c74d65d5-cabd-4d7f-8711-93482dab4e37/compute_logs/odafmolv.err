@@ -1,0 +1,27 @@
+2026-06-30 09:12:26 +0000 - dagster - DEBUG - openAQ_job - c74d65d5-cabd-4d7f-8711-93482dab4e37 - 10701 - LOGS_CAPTURED - Capturing logs for process (pid: 10701).
+2026-06-30 09:12:26 +0000 - dagster - DEBUG - openAQ_job - c74d65d5-cabd-4d7f-8711-93482dab4e37 - 10701 - dlt_pipeline - STEP_START - Started execution of step "dlt_pipeline".
+2026-06-30 09:14:26,835|[WARNING]|10701|136580286571328|dlt|validate.py|verify_normalized_table:113|In schema `openaq_source`: The following columns in table 'locations' did not receive any data during this load and therefore could not have their types inferred:
+  - datetime_first
+  - datetime_last
+  - distance
+  - licenses
+
+Unless type hints are provided, these columns will not be materialized in the destination.
+One way to provide type hints is to use the 'columns' argument in the '@dlt.resource' decorator.  For example:
+
+@dlt.resource(columns={'datetime_first': {'data_type': 'text'}})
+
+2026-06-30 09:14:26,844|[WARNING]|10701|136580286571328|dlt|validate.py|verify_normalized_table:113|In schema `openaq_source`: The following columns in table 'locations__licenses' did not receive any data during this load and therefore could not have their types inferred:
+  - attribution__url
+  - date_to
+
+Unless type hints are provided, these columns will not be materialized in the destination.
+One way to provide type hints is to use the 'columns' argument in the '@dlt.resource' decorator.  For example:
+
+@dlt.resource(columns={'attribution__url': {'data_type': 'text'}})
+
+2026-06-30 09:14:47 +0000 - dagster - DEBUG - openAQ_job - c74d65d5-cabd-4d7f-8711-93482dab4e37 - 10701 - dlt_pipeline - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-06-30 09:14:48 +0000 - dagster - DEBUG - openAQ_job - c74d65d5-cabd-4d7f-8711-93482dab4e37 - dlt_pipeline - Writing file at: /app/storage/dlt_pipeline using PickledObjectFilesystemIOManager...
+2026-06-30 09:14:48 +0000 - dagster - DEBUG - openAQ_job - c74d65d5-cabd-4d7f-8711-93482dab4e37 - 10701 - dlt_pipeline - ASSET_MATERIALIZATION - Materialized value dlt_pipeline.
+2026-06-30 09:14:48 +0000 - dagster - DEBUG - openAQ_job - c74d65d5-cabd-4d7f-8711-93482dab4e37 - 10701 - dlt_pipeline - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-06-30 09:14:48 +0000 - dagster - DEBUG - openAQ_job - c74d65d5-cabd-4d7f-8711-93482dab4e37 - 10701 - dlt_pipeline - STEP_SUCCESS - Finished execution of step "dlt_pipeline" in 2m21s.

@@ -1,0 +1,175 @@
+[locations] Fetching page 1...
+[locations] Yielding 1000 rows.
+[get_sensor_ids] Fetching locations page 1...
+[get_sensor_ids] Reached 50 sensors, stopping.
+[measurements] Processing 50 sensors...
+[measurements] Sensor 1/50: id=6
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 2/50: id=5
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 3/50: id=7
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 4/50: id=8
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 5/50: id=10
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 6/50: id=9
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 7/50: id=11
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 8/50: id=12
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 9/50: id=14
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 10/50: id=13
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 11/50: id=16
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 12/50: id=15
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 13/50: id=17
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 14/50: id=18
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 15/50: id=20
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 16/50: id=19
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 17/50: id=22
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 18/50: id=21
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 19/50: id=23
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 20/50: id=13866
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 21/50: id=24
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 22/50: id=13864
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 23/50: id=25
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 24/50: id=27
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 25/50: id=28
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 26/50: id=29
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 27/50: id=26
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 28/50: id=30
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 29/50: id=33
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 30/50: id=32
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 31/50: id=31
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 32/50: id=34
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 33/50: id=392
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 34/50: id=12234782
+  [measurements] Sensor 12234782 page 1: 1 rows (total: 1)
+[locations] Fetching page 2...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 35/50: id=12234783
+  [measurements] Sensor 12234783 page 1: 1 rows (total: 2)
+[locations] Fetching page 3...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 36/50: id=12234784
+  [measurements] Sensor 12234784 page 1: 1 rows (total: 3)
+[locations] Fetching page 4...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 37/50: id=36
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 38/50: id=14340713
+  [measurements] Sensor 14340713 page 1: 1 rows (total: 4)
+[locations] Fetching page 5...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 39/50: id=12234785
+  [measurements] Sensor 12234785 page 1: 1 rows (total: 5)
+[locations] Fetching page 6...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 40/50: id=394
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 41/50: id=12234786
+  [measurements] Sensor 12234786 page 1: 1 rows (total: 6)
+[locations] Fetching page 7...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 42/50: id=399
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 43/50: id=35
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 44/50: id=12234787
+  [measurements] Sensor 12234787 page 1: 1 rows (total: 7)
+[locations] Fetching page 8...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 45/50: id=12234788
+  [measurements] Sensor 12234788 page 1: 1 rows (total: 8)
+[locations] Fetching page 9...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 46/50: id=12234789
+  [measurements] Sensor 12234789 page 1: 1 rows (total: 9)
+[locations] Fetching page 10...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 47/50: id=393
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 48/50: id=12234790
+  [measurements] Sensor 12234790 page 1: 1 rows (total: 10)
+[locations] Fetching page 11...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Sensor 49/50: id=14340714
+  [measurements] No results on page 1, moving on.
+[measurements] Sensor 50/50: id=14340715
+  [measurements] Sensor 14340715 page 1: 1 rows (total: 11)
+[locations] Fetching page 12...
+[locations] Yielding 1000 rows.
+  [measurements] No results on page 2, moving on.
+[measurements] Done. Total rows yielded: 11
+[locations] Fetching page 13...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 14...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 15...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 16...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 17...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 18...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 19...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 20...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 21...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 22...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 23...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 24...
+[locations] Yielding 1000 rows.
+[locations] Fetching page 25...
+[locations] Yielding 909 rows.
+[locations] Fetching page 26...
+[locations] Done.
+Pipeline openaq_pipeline load step completed in 20.96 seconds
+1 load package(s) were loaded to destination snowflake and into dataset openaq_data
+The snowflake destination used snowflake://SHAHMEER7008:***@ch79706.me-central2.gcp/GITHUB_DB location to store data
+Load package 1782810750.0689435 is LOADED and contains no failed jobs
+
+--- Load Details ---
+Load ID : 1782810750.0689435
+Status  : loaded

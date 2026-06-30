@@ -5,7 +5,6 @@ services:
   dagster:
 
     build: .
-
     container_name: dagster
 
     ports:
@@ -16,3 +15,12 @@ services:
 
     volumes:
       - .:/app
+    
+  dagster-daemon:
+
+    build: .
+
+    env_file:
+      - .env
+
+    command: dagster-daemon run
